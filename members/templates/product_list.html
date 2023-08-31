@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Members</h1>
+  
+<ul>
+  {% for x in mymembers %}
+    <li>{{ x.name }} {{ x.content }} {{ x.pub_date }}</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
